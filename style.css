@@ -33,6 +33,7 @@ time, mark, audio, video {
      font-size: 1.5rem;
      border-radius: 1.3rem;
      margin: 5rem;
+     font-family: 'Roboto Mono', monospace
  }
 
 .button-one{
@@ -63,7 +64,7 @@ font-family: 'Chelsea Market', cursive;
 
 p{
 width: auto;
-margin: 1rem 30rem;
+margin: 1rem 45rem;
 text-align: center;
 font-size: 1.3rem;
 line-height: 1.5rem;
@@ -73,11 +74,35 @@ font-family: 'Roboto Mono', monospace;
 .part-2{
     background-color: #DDB9A3;
     color:white;
-    margin: 2rem 5rem;
+    padding: 1rem;
+}
+
+.part-3{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.part-4{
+    margin: 2rem;
     padding: 1rem;
 }
 
 .fire{
     width: 10rem;
     height: auto;
+    margin: 2rem;
+}
+
+.camper{
+    width: 10rem;
+    height: auto;
+    margin: 2rem;
+}
+
+.so-pretty{
+    width:100%;
+    height:20rem
+}
+span{
+    font-weight: bold;
 }
