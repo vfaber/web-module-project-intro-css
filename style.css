@@ -23,14 +23,17 @@ time, mark, audio, video {
 *{
     font-size: 62.5%;
     font-family: 'chelsea market';
+    text-align:center;
+    letter-spacing: 0.2rem;
 
 }
  button{
      color:white;
      border: none;
-     padding: 2rem;
+     padding: 1rem 3.5rem;
      font-size: 1.5rem;
      border-radius: 1.3rem;
+     margin: 5rem;
  }
 
 .button-one{
@@ -45,6 +48,30 @@ time, mark, audio, video {
     background-color: #FFCD69;
 }
 
+.headerPhoto{
+ width: 20rem;
+ height: auto;
+ border-radius:100%; 
+ float: left;
+ margin: 0 5rem;
+}
 h1 {
-    
+Text-align: center;
+margin: 3rem;
+font-size: 3rem;
+}
+
+p{
+width: auto;
+margin: 1rem 30rem;
+text-align: center;
+font-size: 1.3rem;
+line-height: 1.5rem;
+}
+
+.part-2{
+    background-color: #DDB9A3;
+    color:white;
+    margin: 2rem 5rem;
+    padding: 1rem;
 }
