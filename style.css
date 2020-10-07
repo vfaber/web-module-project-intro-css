@@ -33,7 +33,8 @@ time, mark, audio, video {
      font-size: 1.5rem;
      border-radius: 1.3rem;
      margin: 5rem;
-     font-family: 'Roboto Mono', monospace
+     font-family: 'Roboto Mono', monospace;
+
  }
 
 .button-one{
@@ -75,8 +76,11 @@ font-family: 'Roboto Mono', monospace;
     background-color: #DDB9A3;
     color:white;
     padding: 1rem;
+    margin: initial;
 }
-
+.part-2 p{
+    margin:initial;
+}
 .part-3{
     margin: 2rem;
     padding: 1rem;
@@ -101,8 +105,17 @@ font-family: 'Roboto Mono', monospace;
 
 .so-pretty{
     width:100%;
-    height:20rem
+    height: 500px;
+    background-size: cover;
 }
 span{
     font-weight: bold;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+footer nav{
+   position: absolute;
+   background-color: #F9E7DC;
 }
