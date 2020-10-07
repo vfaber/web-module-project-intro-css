@@ -37,16 +37,37 @@ time, mark, audio, video {
 
  }
 
+ button.hover{
+    background-color:white;
+    border: none;
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
+    border-radius: 1.3rem;
+    margin: 5rem;
+    font-family: 'Roboto Mono', monospace;
+ }
+
 .button-one{
     background-color: #FF764E;
 }
 
+.button-one.hover{
+    color: #FF764E;
+}
 .button-two{
     background-color: #5ed3eb;
 }
 
+.button-two.hover{
+    color: #5ed3eb;
+}
+
 .button-three{
     background-color: #FFCD69;
+}
+
+.button-three.hover{
+    color: #FFCD69;
 }
 
 .headerPhoto{
@@ -59,36 +80,40 @@ time, mark, audio, video {
 h1 {
 Text-align: center;
 margin: 3rem;
-font-size: 3rem;
+font-size: 5rem;
 font-family: 'Chelsea Market', cursive;
 }
 
 p{
-width: auto;
-margin: 1rem 45rem;
 text-align: center;
-font-size: 1.3rem;
+font-size: 1.5rem;
 line-height: 1.5rem;
 font-family: 'Roboto Mono', monospace;
+}
+
+.part-1{
+    Width: 25rem;
+    margin: 2rem auto;
+    
 }
 
 .part-2{
     background-color: #DDB9A3;
     color:white;
-    padding: 1rem;
-    margin: initial;
+    padding: 2rem;
+    margin: 2rem;
 }
 .part-2 p{
     margin:initial;
 }
-.part-3{
-    margin: 2rem;
-    padding: 1rem;
+.part-3 p{
+    Width: 25rem;
+    margin: 2rem auto;
 }
 
-.part-4{
-    margin: 2rem;
-    padding: 1rem;
+.part-4 p{
+    Width: 25rem;
+    margin: 2rem auto;
 }
 
 .fire{
@@ -104,18 +129,16 @@ font-family: 'Roboto Mono', monospace;
 }
 
 .so-pretty{
-    width:100%;
-    height: 500px;
-    background-size: cover;
+    width: 100%;
+    height:25rem;
+    object-fit:cover;
+    object-position: 100% 15%;
 }
+
 span{
     font-weight: bold;
 }
 
 footer{
     background-color: #F9E7DC;
-}
-footer nav{
-   position: absolute;
-   background-color: #F9E7DC;
 }
