@@ -37,7 +37,7 @@ time, mark, audio, video {
 
  }
 
- button.hover{
+ button:hover{
     background-color:white;
     padding: 1rem 3.5rem;
     font-size: 1.5rem;
@@ -50,7 +50,7 @@ time, mark, audio, video {
     background-color: #FF764E;
 }
 
-.button-one.hover{
+.button-one:hover{
     color: #FF764E;
     border: solid 1px #FF764E;
 }
@@ -58,7 +58,7 @@ time, mark, audio, video {
     background-color: #5ed3eb;
 }
 
-.button-two.hover{
+.button-two:hover{
     color: #5ed3eb;
     border: solid 1px  #5ed3eb;
 }
@@ -67,7 +67,7 @@ time, mark, audio, video {
     background-color: #FFCD69;
 }
 
-.button-three.hover{
+.button-three:hover{
     color: #FFCD69;
     border: solid 1px #FFCD69;
 }
